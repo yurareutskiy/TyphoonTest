@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63DC233BF25CDD356161560D /* libPods-TyphoonTestSingleTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C5B9089BB9EA7A89DD42A1 /* libPods-TyphoonTestSingleTable.a */; };
 		BF1A4E191EE83BB2005114DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E181EE83BB2005114DF /* AppDelegate.m */; };
-		BF1A4E1C1EE83BB2005114DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E1B1EE83BB2005114DF /* ViewController.m */; };
-		BF1A4E1F1EE83BB2005114DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1A4E1D1EE83BB2005114DF /* Main.storyboard */; };
 		BF1A4E211EE83BB2005114DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1A4E201EE83BB2005114DF /* Assets.xcassets */; };
 		BF1A4E241EE83BB2005114DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1A4E221EE83BB2005114DF /* LaunchScreen.storyboard */; };
 		BF1A4E271EE83BB2005114DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E261EE83BB2005114DF /* main.m */; };
 		BF1A4E311EE83BB2005114DF /* TyphoonTestSingleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E301EE83BB2005114DF /* TyphoonTestSingleTableTests.m */; };
 		BF1A4E3C1EE83BB2005114DF /* TyphoonTestSingleTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E3B1EE83BB2005114DF /* TyphoonTestSingleTableUITests.m */; };
+		BF1A4E4B1EE83D8E005114DF /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E4A1EE83D8E005114DF /* DataTableViewController.m */; };
+		BF1A4E4F1EE83E62005114DF /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E4E1EE83E62005114DF /* ApplicationAssembly.m */; };
+		BF1A4E531EE84112005114DF /* DataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E521EE84112005114DF /* DataSourceManager.m */; };
+		BF1A4E591EE8426B005114DF /* TableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A4E581EE8426B005114DF /* TableItem.m */; };
+		BF8D536D1EE84F8C00F13342 /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D536B1EE84F8C00F13342 /* SelectionViewController.m */; };
+		BF8D53731EE8510300F13342 /* TableAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D53721EE8510300F13342 /* TableAssembly.m */; };
+		BF8D53761EE8576200F13342 /* SelectionAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D53751EE8576200F13342 /* SelectionAssembly.m */; };
+		BF8D53791EE8607000F13342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8D53781EE8607000F13342 /* Main.storyboard */; };
+		BF8D537E1EE935A800F13342 /* BaseDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D537D1EE935A800F13342 /* BaseDataProvider.m */; };
+		BF8D53831EE9380800F13342 /* FirstDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D53821EE9380800F13342 /* FirstDataProvider.m */; };
+		BF8D53871EE938EF00F13342 /* SecondDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D53861EE938EF00F13342 /* SecondDataProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35C5B9089BB9EA7A89DD42A1 /* libPods-TyphoonTestSingleTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TyphoonTestSingleTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DD9DF3EC3DC5797680279D /* Pods-TyphoonTestSingleTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonTestSingleTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonTestSingleTable/Pods-TyphoonTestSingleTable.release.xcconfig"; sourceTree = "<group>"; };
+		A14B0ABCD5475012647E36E8 /* Pods-TyphoonTestSingleTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonTestSingleTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonTestSingleTable/Pods-TyphoonTestSingleTable.debug.xcconfig"; sourceTree = "<group>"; };
 		BF1A4E141EE83BB2005114DF /* TyphoonTestSingleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonTestSingleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1A4E171EE83BB2005114DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF1A4E181EE83BB2005114DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF1A4E1A1EE83BB2005114DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF1A4E1B1EE83BB2005114DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF1A4E1E1EE83BB2005114DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF1A4E201EE83BB2005114DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF1A4E231EE83BB2005114DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF1A4E251EE83BB2005114DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +61,29 @@
 		BF1A4E371EE83BB2005114DF /* TyphoonTestSingleTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonTestSingleTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1A4E3B1EE83BB2005114DF /* TyphoonTestSingleTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyphoonTestSingleTableUITests.m; sourceTree = "<group>"; };
 		BF1A4E3D1EE83BB2005114DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1A4E491EE83D8E005114DF /* DataTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTableViewController.h; sourceTree = "<group>"; };
+		BF1A4E4A1EE83D8E005114DF /* DataTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTableViewController.m; sourceTree = "<group>"; };
+		BF1A4E4D1EE83E62005114DF /* ApplicationAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationAssembly.h; sourceTree = "<group>"; };
+		BF1A4E4E1EE83E62005114DF /* ApplicationAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationAssembly.m; sourceTree = "<group>"; };
+		BF1A4E511EE84112005114DF /* DataSourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceManager.h; sourceTree = "<group>"; };
+		BF1A4E521EE84112005114DF /* DataSourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSourceManager.m; sourceTree = "<group>"; };
+		BF1A4E551EE84209005114DF /* ItemProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ItemProtocol.h; path = TyphoonTestSingleTable/Data/Item/ItemProtocol.h; sourceTree = SOURCE_ROOT; };
+		BF1A4E571EE8426B005114DF /* TableItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableItem.h; sourceTree = "<group>"; };
+		BF1A4E581EE8426B005114DF /* TableItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableItem.m; sourceTree = "<group>"; };
+		BF8D536A1EE84F8C00F13342 /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		BF8D536B1EE84F8C00F13342 /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		BF8D53711EE8510300F13342 /* TableAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableAssembly.h; sourceTree = "<group>"; };
+		BF8D53721EE8510300F13342 /* TableAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableAssembly.m; sourceTree = "<group>"; };
+		BF8D53741EE8576200F13342 /* SelectionAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionAssembly.h; sourceTree = "<group>"; };
+		BF8D53751EE8576200F13342 /* SelectionAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionAssembly.m; sourceTree = "<group>"; };
+		BF8D53781EE8607000F13342 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BF8D537B1EE9348700F13342 /* DataProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProviderProtocol.h; sourceTree = "<group>"; };
+		BF8D537C1EE935A800F13342 /* BaseDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataProvider.h; sourceTree = "<group>"; };
+		BF8D537D1EE935A800F13342 /* BaseDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataProvider.m; sourceTree = "<group>"; };
+		BF8D53811EE9380800F13342 /* FirstDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDataProvider.h; sourceTree = "<group>"; };
+		BF8D53821EE9380800F13342 /* FirstDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDataProvider.m; sourceTree = "<group>"; };
+		BF8D53851EE938EF00F13342 /* SecondDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDataProvider.h; sourceTree = "<group>"; };
+		BF8D53861EE938EF00F13342 /* SecondDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDataProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DC233BF25CDD356161560D /* libPods-TyphoonTestSingleTable.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +112,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D8E3EA71AFE69FF601CC651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A14B0ABCD5475012647E36E8 /* Pods-TyphoonTestSingleTable.debug.xcconfig */,
+				91DD9DF3EC3DC5797680279D /* Pods-TyphoonTestSingleTable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91821A56C9AB4465DBEF7F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C5B9089BB9EA7A89DD42A1 /* libPods-TyphoonTestSingleTable.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF1A4E0B1EE83BB2005114DF = {
 			isa = PBXGroup;
 			children = (
+				BF8D53781EE8607000F13342 /* Main.storyboard */,
 				BF1A4E161EE83BB2005114DF /* TyphoonTestSingleTable */,
 				BF1A4E2F1EE83BB2005114DF /* TyphoonTestSingleTableTests */,
 				BF1A4E3A1EE83BB2005114DF /* TyphoonTestSingleTableUITests */,
 				BF1A4E151EE83BB2005114DF /* Products */,
+				7D8E3EA71AFE69FF601CC651 /* Pods */,
+				91821A56C9AB4465DBEF7F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +157,9 @@
 			children = (
 				BF1A4E171EE83BB2005114DF /* AppDelegate.h */,
 				BF1A4E181EE83BB2005114DF /* AppDelegate.m */,
-				BF1A4E1A1EE83BB2005114DF /* ViewController.h */,
-				BF1A4E1B1EE83BB2005114DF /* ViewController.m */,
-				BF1A4E1D1EE83BB2005114DF /* Main.storyboard */,
+				BF1A4E501EE83E65005114DF /* Application Assembly */,
+				BF8D53691EE84F6E00F13342 /* Selection */,
+				BF8D53531EE84ECA00F13342 /* Table */,
 				BF1A4E201EE83BB2005114DF /* Assets.xcassets */,
 				BF1A4E221EE83BB2005114DF /* LaunchScreen.storyboard */,
 				BF1A4E251EE83BB2005114DF /* Info.plist */,
@@ -132,6 +186,138 @@
 			path = TyphoonTestSingleTableUITests;
 			sourceTree = "<group>";
 		};
+		BF1A4E4C1EE83DF7005114DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A4E491EE83D8E005114DF /* DataTableViewController.h */,
+				BF1A4E4A1EE83D8E005114DF /* DataTableViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF1A4E501EE83E65005114DF /* Application Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A4E4D1EE83E62005114DF /* ApplicationAssembly.h */,
+				BF1A4E4E1EE83E62005114DF /* ApplicationAssembly.m */,
+			);
+			name = "Application Assembly";
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		BF1A4E541EE84118005114DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D537A1EE9341E00F13342 /* DataSourceImplementation */,
+				BF1A4E561EE84236005114DF /* Item */,
+				BF8D53801EE935B600F13342 /* DataProvider */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BF1A4E561EE84236005114DF /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A4E551EE84209005114DF /* ItemProtocol.h */,
+				BF1A4E571EE8426B005114DF /* TableItem.h */,
+				BF1A4E581EE8426B005114DF /* TableItem.m */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		BF8D53531EE84ECA00F13342 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D53701EE850EC00F13342 /* Assembly */,
+				BF1A4E541EE84118005114DF /* Data */,
+				BF1A4E4C1EE83DF7005114DF /* View */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		BF8D53691EE84F6E00F13342 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D536F1EE84F8F00F13342 /* View */,
+				BF8D53771EE8576700F13342 /* Assembly */,
+			);
+			name = Selection;
+			sourceTree = "<group>";
+		};
+		BF8D536F1EE84F8F00F13342 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D536A1EE84F8C00F13342 /* SelectionViewController.h */,
+				BF8D536B1EE84F8C00F13342 /* SelectionViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BF8D53701EE850EC00F13342 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D53711EE8510300F13342 /* TableAssembly.h */,
+				BF8D53721EE8510300F13342 /* TableAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		BF8D53771EE8576700F13342 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D53741EE8576200F13342 /* SelectionAssembly.h */,
+				BF8D53751EE8576200F13342 /* SelectionAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		BF8D537A1EE9341E00F13342 /* DataSourceImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A4E511EE84112005114DF /* DataSourceManager.h */,
+				BF1A4E521EE84112005114DF /* DataSourceManager.m */,
+			);
+			name = DataSourceImplementation;
+			sourceTree = "<group>";
+		};
+		BF8D537F1EE935AD00F13342 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D537C1EE935A800F13342 /* BaseDataProvider.h */,
+				BF8D537D1EE935A800F13342 /* BaseDataProvider.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BF8D53801EE935B600F13342 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D537B1EE9348700F13342 /* DataProviderProtocol.h */,
+				BF8D537F1EE935AD00F13342 /* Base */,
+				BF8D53841EE9380C00F13342 /* First */,
+				BF8D53881EE938F900F13342 /* Second */,
+			);
+			name = DataProvider;
+			sourceTree = "<group>";
+		};
+		BF8D53841EE9380C00F13342 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D53811EE9380800F13342 /* FirstDataProvider.h */,
+				BF8D53821EE9380800F13342 /* FirstDataProvider.m */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
+		BF8D53881EE938F900F13342 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D53851EE938EF00F13342 /* SecondDataProvider.h */,
+				BF8D53861EE938EF00F13342 /* SecondDataProvider.m */,
+			);
+			name = Second;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +325,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF1A4E401EE83BB2005114DF /* Build configuration list for PBXNativeTarget "TyphoonTestSingleTable" */;
 			buildPhases = (
+				7D59FDDFDEB8BC981C6E13BA /* [CP] Check Pods Manifest.lock */,
 				BF1A4E101EE83BB2005114DF /* Sources */,
 				BF1A4E111EE83BB2005114DF /* Frameworks */,
 				BF1A4E121EE83BB2005114DF /* Resources */,
+				1A492FB816166CC1DCCC55E1 /* [CP] Embed Pods Frameworks */,
+				3DD2DA84AAB7F5AACEBE5626 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +426,7 @@
 			files = (
 				BF1A4E241EE83BB2005114DF /* LaunchScreen.storyboard in Resources */,
 				BF1A4E211EE83BB2005114DF /* Assets.xcassets in Resources */,
-				BF1A4E1F1EE83BB2005114DF /* Main.storyboard in Resources */,
+				BF8D53791EE8607000F13342 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +446,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A492FB816166CC1DCCC55E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonTestSingleTable/Pods-TyphoonTestSingleTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD2DA84AAB7F5AACEBE5626 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonTestSingleTable/Pods-TyphoonTestSingleTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D59FDDFDEB8BC981C6E13BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF1A4E101EE83BB2005114DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1A4E1C1EE83BB2005114DF /* ViewController.m in Sources */,
+				BF8D53871EE938EF00F13342 /* SecondDataProvider.m in Sources */,
+				BF1A4E4F1EE83E62005114DF /* ApplicationAssembly.m in Sources */,
+				BF1A4E531EE84112005114DF /* DataSourceManager.m in Sources */,
+				BF8D53731EE8510300F13342 /* TableAssembly.m in Sources */,
+				BF1A4E4B1EE83D8E005114DF /* DataTableViewController.m in Sources */,
+				BF8D53831EE9380800F13342 /* FirstDataProvider.m in Sources */,
+				BF1A4E591EE8426B005114DF /* TableItem.m in Sources */,
 				BF1A4E271EE83BB2005114DF /* main.m in Sources */,
 				BF1A4E191EE83BB2005114DF /* AppDelegate.m in Sources */,
+				BF8D536D1EE84F8C00F13342 /* SelectionViewController.m in Sources */,
+				BF8D53761EE8576200F13342 /* SelectionAssembly.m in Sources */,
+				BF8D537E1EE935A800F13342 /* BaseDataProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +546,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF1A4E1D1EE83BB2005114DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF1A4E1E1EE83BB2005114DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF1A4E221EE83BB2005114DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -421,10 +659,12 @@
 		};
 		BF1A4E411EE83BB2005114DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14B0ABCD5475012647E36E8 /* Pods-TyphoonTestSingleTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XAE35XWCU;
 				INFOPLIST_FILE = TyphoonTestSingleTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reutskiy.ru.TyphoonTestSingleTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,10 +674,12 @@
 		};
 		BF1A4E421EE83BB2005114DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DD9DF3EC3DC5797680279D /* Pods-TyphoonTestSingleTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XAE35XWCU;
 				INFOPLIST_FILE = TyphoonTestSingleTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reutskiy.ru.TyphoonTestSingleTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +693,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8XAE35XWCU;
 				INFOPLIST_FILE = TyphoonTestSingleTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reutskiy.ru.TyphoonTestSingleTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +708,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8XAE35XWCU;
 				INFOPLIST_FILE = TyphoonTestSingleTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reutskiy.ru.TyphoonTestSingleTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +762,7 @@
 				BF1A4E421EE83BB2005114DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF1A4E431EE83BB2005114DF /* Build configuration list for PBXNativeTarget "TyphoonTestSingleTableTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +771,7 @@
 				BF1A4E451EE83BB2005114DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF1A4E461EE83BB2005114DF /* Build configuration list for PBXNativeTarget "TyphoonTestSingleTableUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +780,7 @@
 				BF1A4E481EE83BB2005114DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
